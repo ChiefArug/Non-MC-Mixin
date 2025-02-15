@@ -12,9 +12,9 @@ This jar can just be run directly from the commandline with arguments appended a
 ## Arg explanations
 
 - `-tweakClass chiefarug.projects.mixinattempt.tweaker.PrimaryTweaker`
-  - The tweak class that provides the launch target, taken from the args.
+  - The tweak class that provides the launch target, taken from the args. This happens because it is the first tweak class defined.
 - `-tweakClass org.spongepowered.asm.launch.MixinTweaker`
-  - The mixin tweak class. This makes mixin work, but if left as the primary tweak class will attempt to launch `net.minecraft.client.main.Main`.
+  - The mixin tweak class. This makes mixin work, but if left as the primary (first) tweak class will attempt to launch `net.minecraft.client.main.Main`.
 - `chiefarug.projects.mixinattempt.Main`
   - The target class, this is used by `PrimaryTweaker` to say what to launch. This just needs to be the first non launchwrapper arg. This class should have a `public static void main(String[] args)` method.
 - `--mixin.config mixinattempt.mixins.json`
