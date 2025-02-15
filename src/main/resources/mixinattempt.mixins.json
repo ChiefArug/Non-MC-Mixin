@@ -1,0 +1,7 @@
+{
+  "minVersion": "0.8.7",
+  "package": "chiefarug.projects.mixinattempt.mixins",
+  "mixins": [
+    "MainMixin"
+  ]
+}

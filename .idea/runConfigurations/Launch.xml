@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Launch" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="jbr-21" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="MAIN_CLASS_NAME" value="net.minecraft.launchwrapper.Launch" />
+    <module name="MixinAttempt.main" />
+    <option name="PROGRAM_PARAMETERS" value="-tweakClass chiefarug.projects.mixinattempt.tweaker.PrimaryTweaker -tweakClass org.spongepowered.asm.launch.MixinTweaker chiefarug.projects.mixinattempt.Main --mixin.config mixinattempt.mixins.json" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
